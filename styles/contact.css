@@ -172,6 +172,7 @@ h2 {
 @media only screen and (max-width: 1266px) {
 	.section2 {
 		width: 100%;
+		background: black;
 	}
 }
 @media only screen and (max-width: 960px) {

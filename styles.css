@@ -518,18 +518,57 @@ img {
 	width: 99%;
 	/* flex-direction: column; */
 	justify-content: space-evenly;
-	/* background: brown; */
+	/* background: gray; */
+}
+
+.theFormContainer {
+	display: flex;
+	justify-content: center;
+	/* background: green; */
+	width: 90%;
+}
+
+.sec2contactform {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* background: palevioletred; */
+	text-align: center;
+	width: 80%;
+}
+.theForm {
+	width: 100%;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-between;
+	/* flex-direction: column; */
+}
+.topInputFields {
+	width: 100%;
+	display: flex;
+	/* background: coral; */
+	/* flex-direction: column; */
+	justify-content: space-between;
+}
+
+.topInputFields input {
+	width: 48%;
+}
+
+.topInputFields input::placeholder {
+	text-align: center;
 }
 
 /* imput fields */
 .section2 .sec2contactform input[type="text"],
 .section2 .sec2contactform input[type="email"],
 .section2 .sec2contactform textarea {
-	padding: 18px;
+	padding: 18px 0px 18px 0px;
 	border: 0;
 	background: #ededed;
 	margin: 7px 0;
 }
+
 .section2 .sec2contactform textarea {
 	width: 100%;
 	display: block;
@@ -561,14 +600,14 @@ img {
 	display: flex;
 	flex-direction: column;
 }
-.topInputFields {
-	/* width: 20%; */
-	display: flex;
-	justify-content: space-between;
-}
-.topInputFields input {
+/* .topInputFields { */
+/* width: 20%; */
+/* display: flex; */
+/* justify-content: space-between; */
+/* } */
+/* .topInputFields input {
 	width: 38%;
-}
+} */
 
 .bottomTextArea {
 	display: flex;
@@ -580,3 +619,71 @@ img {
 /* .submitButton {
 	align-self: center;
 } */
+
+@media only screen and (max-width: 1266px) {
+	/* .section2 .sec2contactform input[type="text"],
+	.section2 .sec2contactform input[type="email"],
+	.section2 .sec2contactform textarea {
+		padding: 18px;
+		border: 0;
+		background: #ededed;
+		margin: 7px 0;
+	} */
+
+	.section2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* background: brown; */
+		width: 60vw;
+	}
+	.theFormContainer {
+		display: flex;
+		justify-content: center;
+		/* background: green; */
+		width: 90%;
+	}
+
+	.sec2contactform {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		/* background: palevioletred; */
+		text-align: center;
+		width: 80%;
+	}
+	.theForm {
+		width: 100%;
+		/* background: blue; */
+		display: flex;
+		flex-direction: column;
+	}
+	.topInputFields {
+		width: 100%;
+		display: flex;
+		/* background: coral; */
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.topInputFields input {
+		width: 100%;
+		align-self: center;
+	}
+
+	.topInputFields input::placeholder {
+		/* text-align: center; */
+		padding-left: 10px;
+	}
+
+	.bottomTextArea {
+		display: flex;
+	}
+
+	.section3 {
+		width: 100%;
+	}
+	.submitButton {
+		align-self: center;
+	}
+}
