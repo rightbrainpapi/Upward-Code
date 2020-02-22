@@ -47,10 +47,10 @@ html {
 	width: 100%;
 }
 
-/* .pricing-features {
+.pricing-features {
 	list-style-type: none;
-	list-style: outside url("../images/check.png");
-} */
+	/* list-style: outside url("../images/check.png"); */
+}
 
 .features-is-included {
 	list-style: outside url("../images/check.png");
