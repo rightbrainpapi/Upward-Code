@@ -461,3 +461,31 @@ img {
 	padding: 10px;
 	color: #000000;
 }
+
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+/* ///////////// Contact Form ////////////// */
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	/* background: green; */
+}
+.section1 {
+	align-self: center;
+}
+
+.section2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.section1 h1 {
+	font-size: 40px;
+	color: #5dc3c5;
+	font-weight: normal;
+}
