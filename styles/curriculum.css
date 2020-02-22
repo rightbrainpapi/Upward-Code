@@ -3,6 +3,9 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
+/* .module {
+	cursor: url("../images/hot-air-balloon.png"), auto;
+} */
 /* h2 {
 	text-align: center;
 } */
@@ -53,13 +56,8 @@ html {
 }
 
 .features-is-included {
-	list-style: outside url("../images/check.png");
+	list-style: outside url("../images/check-mark.png");
 }
-
-/* .not-included {
-	list-style: outside url("../images/check.png");
-	list-style-type: none;
-} */
 
 .panel {
 	background-color: #fff;
