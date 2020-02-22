@@ -473,6 +473,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
+	align-items: center;
 	/* background: green; */
 }
 .section1 {
@@ -481,6 +482,7 @@ img {
 
 .section2 {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
 }
 
@@ -488,4 +490,38 @@ img {
 	font-size: 40px;
 	color: #5dc3c5;
 	font-weight: normal;
+}
+
+/* imput fields */
+.section2 .sec2contactform input[type="text"],
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+	padding: 18px;
+	border: 0;
+	background: #ededed;
+	margin: 7px 0;
+}
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color: #666;
+	resize: none;
+}
+.section2 .sec2contactform input[type="submit"] {
+	padding: 15px 40px;
+	color: #fff;
+	border: 0;
+	background: #5dc3c5;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 7px 0;
+	cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+	font-weight: normal;
+	margin: 20px 0;
+	margin-top: 30px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 19px;
+	color: #5dc3c5;
 }
