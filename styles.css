@@ -158,6 +158,16 @@ h2 {
 	opacity: 0;
 }
 
+/* .footerContainer {
+	background: #a2f0f1;
+	margin-top: 2%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	color: #000000;
+}
+
 .footer {
 	border-top: 0.1em solid #546360;
 	z-index: 100;
@@ -170,6 +180,31 @@ h2 {
 .footer ul li {
 	display: inline-block;
 	margin: 0 0.5em;
+} */
+
+/* .section {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	border-top: 0.1em solid #546360;
+	justify-content: center;
+	width: 50%;
+} */
+.footerContainer {
+	align-self: center;
+	font-family: "Cabin Sketch", cursive;
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #5dc3c5;
+	padding: 3% 0 3% 0;
+	/* background: green; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	align-self: center;
 }
 #overlay-wrapper {
 	display: none;
@@ -452,16 +487,6 @@ img {
 	}
 }
 
-.footerContainer {
-	background: #a2f0f1;
-	margin-top: 2%;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	padding: 10px;
-	color: #000000;
-}
-
 /* ///////////////////////////////////////// */
 /* ///////////////////////////////////////// */
 /* ///////////// Contact Form ////////////// */
@@ -549,6 +574,9 @@ img {
 	display: flex;
 }
 
+.section3 {
+	width: 100%;
+}
 /* .submitButton {
 	align-self: center;
 } */
