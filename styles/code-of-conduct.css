@@ -5,12 +5,10 @@
 } */
 
 body {
-	/* background: greenyellow; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 100vw;
-	/* font-family: "Cabin Sketch", cursive; */
 }
 
 h1 {
@@ -26,8 +24,6 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	border-top: 0.1em solid #546360;
-	/* overflow: auto; */
-	/* background: red; */
 	justify-content: center;
 	width: 50%;
 }
@@ -38,4 +34,13 @@ h3 {
 .points {
 	text-transform: uppercase;
 	color: #000000;
+}
+
+.footerContainer {
+	align-self: center;
+	font-family: "Cabin Sketch", cursive;
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #5dc3c5;
+	padding: 3% 0 3% 0;
 }

@@ -58,6 +58,9 @@ h2 {
 /* Contact Form Styling */
 .container {
 	padding: 0 50px 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .textcenter {
 	text-align: center;
@@ -143,6 +146,23 @@ h2 {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 19px;
 	color: #5dc3c5;
+}
+
+.section {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	border-top: 0.1em solid #546360;
+	justify-content: center;
+	width: 50%;
+}
+.footerContainer {
+	align-self: center;
+	font-family: "Cabin Sketch", cursive;
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #5dc3c5;
+	padding: 3% 0 3% 0;
 }
 
 /* @media querries */
