@@ -469,6 +469,8 @@ img {
 /* ///////////////////////////////////////// */
 
 .contactContainer {
+	width: 100%;
+	/* background: chartreuse; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -480,16 +482,18 @@ img {
 	align-self: center;
 }
 
-.section2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-}
-
 .section1 h1 {
 	font-size: 40px;
 	color: #5dc3c5;
 	font-weight: normal;
+}
+
+.section2 {
+	display: flex;
+	width: 99%;
+	/* flex-direction: column; */
+	justify-content: space-evenly;
+	/* background: brown; */
 }
 
 /* imput fields */
@@ -525,3 +529,26 @@ img {
 	padding-bottom: 19px;
 	color: #5dc3c5;
 }
+
+.theForm {
+	width: 100%;
+	/* background: blue; */
+	display: flex;
+	flex-direction: column;
+}
+.topInputFields {
+	/* width: 20%; */
+	display: flex;
+	justify-content: space-between;
+}
+.topInputFields input {
+	width: 38%;
+}
+
+.bottomTextArea {
+	display: flex;
+}
+
+/* .submitButton {
+	align-self: center;
+} */

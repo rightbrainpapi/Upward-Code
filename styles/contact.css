@@ -115,6 +115,8 @@ h2 {
 .section2 .sec2addr p:first-child {
 	margin-bottom: 10px;
 }
+
+/* imput fields */
 .section2 .sec2contactform input[type="text"],
 .section2 .sec2contactform input[type="email"],
 .section2 .sec2contactform textarea {
