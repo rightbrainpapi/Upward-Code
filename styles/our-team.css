@@ -119,8 +119,17 @@ background-color:#E20351;
 
 #team-block-container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 760px) {
+	#team-block-container {
+		background: green;
+		flex-direction: column;
+	}
+}
+
 .team-section {
 	position: relative;
 	padding: 80px 0px 60px;
