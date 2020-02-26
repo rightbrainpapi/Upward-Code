@@ -380,6 +380,7 @@ img {
 	z-index: 1;
 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -390,4 +391,6 @@ img {
 	/* background: #e20351; */
 	align-self: center;
 	text-align: center;
+	font-style: italic;
+	font-size: 1.2rem;
 }
