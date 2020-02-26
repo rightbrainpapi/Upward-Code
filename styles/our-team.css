@@ -125,7 +125,7 @@ background-color:#E20351;
 
 @media only screen and (max-width: 760px) {
 	#team-block-container {
-		background: green;
+		/* background: green; */
 		flex-direction: column;
 	}
 }
