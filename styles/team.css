@@ -379,3 +379,10 @@ img {
 	align-items: center;
 	text-align: center;
 }
+
+.quote {
+	/* width: 1000px; */
+	background: #e20351;
+	align-self: center;
+	text-align: center;
+}
